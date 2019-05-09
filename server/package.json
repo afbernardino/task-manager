@@ -1,0 +1,29 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "description": "Server for a task manager application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd ./env/dev.env nodemon src/index.js",
+    "test": "env-cmd ./env/test.env jest --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.5",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "jest": "^24.6.0",
+    "nodemon": "^1.19.0",
+    "supertest": "^4.0.2"
+  }
+}
