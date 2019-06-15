@@ -1,6 +1,6 @@
 # Task Manager
 
-This is a simple task manager!
+This is a simple task manager developed for fun!
 
 The [server](./server) was taken from [Andrew Mead's node course](https://github.com/andrewjmead/node-course-v3-code) and was tweaked a bit by me, namely:
 
@@ -16,3 +16,4 @@ The [server](./server) was taken from [Andrew Mead's node course](https://github
 Follow the instructions at the following modules:
 
 - [server](./server/README.md)
+- [client](./client/README.md)
