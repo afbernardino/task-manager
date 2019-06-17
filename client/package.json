@@ -6,7 +6,7 @@
   "scripts": {
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --env production",
-    "dev-server": "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "start": "node server/server.js"
   },
   "keywords": [],
