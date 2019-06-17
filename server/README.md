@@ -26,7 +26,7 @@ JWT_SECRET=<json web token secrect>
 
 ## Test
 
-Create a file named "test.env" with the needed environment variables (see [above](#setup)), at the following folder tree:
+Create a file named "test.env" with the needed environment variables (see the [Setup section](#setup)), at the following folder tree:
 
 ```
 /server
@@ -40,7 +40,7 @@ and run:
 
 ## Run on localhost
 
-Create a file named "dev.env" with the needed environment variables (see [above](#setup)), at the following folder tree:
+Create a file named "dev.env" with the needed environment variables (see the [Setup section](#setup)), at the following folder tree:
 
 ```
 /server
