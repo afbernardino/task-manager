@@ -5,6 +5,7 @@ This server was taken from [Andrew Mead's node course](https://github.com/andrew
 - [Feature] Added data ranges (start date and end date) to tasks;
 - [Feature] Removed user's profile picture;
 - [Feature] Removed "Welcome" and "Good bye" e-mails;
+- [Feature] Enabled CORS requests;
 - [Enhancement] Added a LOT more tests;
 - [Enhancement] Added custom output messages when a user tries to use an already existing e-mail;
 - [Enhancement] Changed the way that (the non-exposure of) sensitive data is handled.
