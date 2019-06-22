@@ -12,7 +12,7 @@ router.post("/users", async (req, res) => {
       // explicit message
       const user = await User.findOne({ email: req.body.email });
       if (user) {
-        return res.status(400).send({ error: "E-mail already in use." });
+        return res.status(400).send({ error: "E-mail already in use. Please try another e-mail." });
       }
     }
 
@@ -88,7 +88,7 @@ router.patch("/users/self", auth, async (req, res) => {
       // explicit message
       const user = await User.findOne({ email: req.body.email });
       if (user) {
-        return res.status(400).send({ error: "E-mail already in use." });
+        return res.status(400).send({ error: "E-mail already in use. Please try another e-mail." });
       }
     }
 
