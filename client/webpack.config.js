@@ -56,10 +56,7 @@ module.exports = env => {
       }),
       new HtmlWebpackPlugin({ template: "./public/index.html" }),
       new webpack.DefinePlugin({
-        "process.env.TASKS_API_ADDRESS": JSON.stringify(
-          process.env.TASKS_API_ADDRESS
-        ),
-        "process.env.TASKS_API_PORT": JSON.stringify(process.env.TASKS_API_PORT)
+        "process.env.TASKS_API_URL": JSON.stringify(process.env.TASKS_API_URL)
       })
     ],
     devtool: isProduction ? "source-map" : "inline-source-map",

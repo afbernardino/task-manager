@@ -1,8 +1,7 @@
 import axios from "axios";
 
-const apiAddress = process.env.TASKS_API_ADDRESS;
-const apiPort = process.env.TASKS_API_PORT;
+const apiURL = process.env.TASKS_API_URL;
 
 export default axios.create({
-  baseURL: `http://${apiAddress}:${apiPort}/users`
+  baseURL: `http://${apiURL}/users`
 });
