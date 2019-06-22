@@ -6,12 +6,16 @@
 
 ## Setup
 
-Build the code with webpack by running the following command:
+Build the project with webpack by running the following command:
 
 ```
 npm run build:dev - For development
 npm run build:prod - For production
 ```
+
+## Test
+
+`npm test`
 
 ## Run on localhost
 
@@ -21,6 +25,6 @@ Alternatively you can fire up the server by using the following command:
 
 `npm run dev`
 
-This will enable Hot Module Replacement (HMR), for fast development.
+This will automatically build the project, each time a file as been changed, by enabling Hot Module Replacement (HMR).
 
 Finally, access the http://localhost:3001 with your browser.
