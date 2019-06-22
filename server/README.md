@@ -32,7 +32,7 @@ MONGODB_URL=<mongodb url> example: mongodb://127.0.0.1:27017/task-manager
 JWT_SECRET=<json web token secrect>
 ```
 
-**Environment variables defaults (except for testing)**
+**Environment variables defaults**
 
 ```
 PORT=3000
