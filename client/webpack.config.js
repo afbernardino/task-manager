@@ -55,8 +55,8 @@ module.exports = env => {
         chunkFileName: "[id].css"
       }),
       new HtmlWebpackPlugin({ template: "./public/index.html" }),
-      new webpack.DefinePlugin({
-        "process.env.TASKS_API_URL": JSON.stringify(process.env.TASKS_API_URL)
+      new webpack.EnvironmentPlugin({
+        TASKS_API_URL: "http://localhost:3000"
       })
     ],
     devtool: isProduction ? "source-map" : "inline-source-map",
