@@ -29,7 +29,7 @@ PORT=3001
 TASKS_API_URL=http://localhost:3000
 ```
 
-If you choose to use webpack-dev-server for development, you can configure the `TASKS_API_URL` variable (yes, you only need this one) by creating a file named "dev.env", at the following folder tree:
+If you choose to use webpack-dev-server for development, you can configure the `TASKS_API_URL` variable (yes, you only need this one!) by creating a file named "dev.env", at the following folder tree:
 
 ```
 /server
@@ -37,14 +37,14 @@ If you choose to use webpack-dev-server for development, you can configure the `
      ` -- dev.env
 ```
 
-If you are going to use this in production or if you want to see which files are created by webpack you can then build the project by running the following command:
+If you want to see which files are created by webpack you can then build the project by running the following command:
 
 ```
-npm run build:dev - For development
+npm run build:dev - For development like environment
 
 or
 
-npm run build:prod - For production
+npm run build:prod - For production like environment
 ```
 
 ## Test
@@ -57,4 +57,10 @@ Run the following command:
 
 `npm run dev`
 
-and access http://localhost:3001 with your browser.
+to use Webpack's Hot Module Replacement (HMR) or:
+
+`npm start`
+
+if you have built the project using `npm run build:dev` or `npm run build:prod`.
+
+Finally, access http://localhost:3001 with your browser.
