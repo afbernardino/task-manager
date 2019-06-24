@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
-import { attemptToRegister } from "../../actions/usersActions";
+import { attemptToRegister } from "../../actions/users";
 import UserForm from "./UserForm";
-import styles from "../../assets/styles";
+import styles from "../../styles";
 import "./UserRegister.css";
 
 class UserRegister extends React.Component {

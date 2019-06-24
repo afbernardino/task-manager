@@ -1,7 +1,7 @@
 import React from "react";
 import { Field, reduxForm } from "redux-form";
 import validator from "validator";
-import styles from "../../assets/styles";
+import styles from "../../styles";
 
 const normalizeToLowerCase = value => value && value.toLowerCase();
 
