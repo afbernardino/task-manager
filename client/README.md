@@ -1,5 +1,7 @@
 # Task Manager Client
 
+Before you continue, please read about the [server module](../server/README.md).
+
 ## Quick setup
 
 ```
