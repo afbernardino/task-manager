@@ -1,0 +1,9 @@
+.Home h1 {
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 25%;
+  letter-spacing: 0.15em;
+  font-size: 4em;
+  width: 100%;
+}

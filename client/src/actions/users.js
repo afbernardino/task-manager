@@ -1,4 +1,6 @@
 import users from "../apis/users";
+import { history } from "../routers/AppRouter";
+import { HOME_ROUTE } from "../routers/routes";
 import {
   REGISTER_USER_ATTEMPT,
   REGISTER_USER_SUCCEEDED,
@@ -23,6 +25,7 @@ export const attemptToRegister = formValues => {
     try {
       const response = await users.post("/", formValues);
       dispatch(success(response));
+      history.push(HOME_ROUTE);
     } catch (error) {
       const response = error.response
         ? error.response
