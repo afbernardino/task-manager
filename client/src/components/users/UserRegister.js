@@ -13,7 +13,7 @@ class UserRegister extends React.Component {
   getSubmitBtnClassName = () => {
     const className = "ui teal";
     if (this.props.user.isRegistering) {
-      return `${className} loading button`;
+      return `${className} loading button disabled`;
     } else {
       return `${className} button`;
     }
